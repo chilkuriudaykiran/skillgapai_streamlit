@@ -1,0 +1,25 @@
+# App + UI
+streamlit>=1.52.0           # recent 2025 release with st.pdf etc. [web:58]
+streamlit-authenticator>=0.3.2
+PyYAML>=6.0.2               # supports newer Python versions [web:26]
+pandas>=2.2.2
+numpy>=1.26.4
+plotly>=5.24.0
+scikit-learn>=1.4.2
+
+# NLP / embeddings (allow older torch builds for Python 3.13)
+sentence-transformers>=5.2.0
+# Relax torch constraint so wheels can be found on Python 3.13
+torch>=2.9.1
+torchvision>=0.24.1
+torchaudio>=2.9.1
+
+# Files & reports
+PyPDF2>=3.0.1
+python-docx>=0.8.11
+reportlab>=4.2.0
+Pillow>=10.3.0
+
+# DB
+SQLAlchemy>=2.0.30
+werkzeug
